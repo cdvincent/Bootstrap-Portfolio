@@ -34,21 +34,28 @@ h1 {
     background:#4aaaa5;
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 150px;
-    margin-left: 100px;
-    margin-right: 57%;
+    margin-left: 12.5%;
+    margin-right: 43%;
     padding: 10px;
-}
-
-#navpad {
-    padding: 0;
-}
-
-#lorem {
-    padding: 30px;
 }
 
 #heading {
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    img {
+        height:150px;
+        width:150px;
+    }
+
+    .text_overlay {
+        background:#4aaaa5;
+        color:white;
+        width: 150px;
+        height: 40px;
+        padding-top: 10px;
+        text-align:center;
+    }
 }
